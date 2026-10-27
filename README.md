@@ -32,13 +32,14 @@
 
 环境要求：Node.js ≥ 20.19（开发时使用 Node 24.20 / npm 11.19）。
 
-```powershell
-cd e:\ZJH\Projects\mood-tunes
+```bash
+git clone https://github.com/susevenci/mood-tunes.git
+cd mood-tunes
 npm install
 npm run dev
 ```
 
-打开 <http://localhost:5173>。也可以直接双击 `start.cmd`，首次会自动安装依赖。
+打开 <http://localhost:5173>。Windows 用户也可以直接双击 `start.cmd`，首次会自动安装依赖。
 
 首次 `npm install` 需要网络；之后模型、本地曲库、已缓存歌曲都可以离线使用。摄像头需要 `localhost` 或 HTTPS（浏览器安全上下文要求）。
 
