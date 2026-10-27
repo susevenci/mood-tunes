@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="恐惧">
+  <defs>
+    <linearGradient id="g-fearful" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7b6cff"/>
+      <stop offset="1" stop-color="#2c2a6e"/>
+    </linearGradient>
+    <radialGradient id="r-fearful" cx="0.7" cy="0.25" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur-fearful"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#g-fearful)"/>
+  <circle cx="320" cy="80" r="130" fill="url(#r-fearful)"/>
+  <g filter="url(#blur-fearful)" opacity="0.55">
+    <circle cx="70" cy="320" r="90" fill="#05070f"/>
+    <circle cx="330" cy="300" r="60" fill="#05070f"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.2">
+    <circle cx="200" cy="200" r="118"/>
+    <circle cx="200" cy="200" r="86"/>
+    <circle cx="200" cy="200" r="54"/>
+  </g>
+  <path d="M70 250 C120 210 160 290 210 250 S300 210 340 250" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="40" y="330" fill="#ffffff" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="46" font-weight="700">恐惧</text>
+  <text x="42" y="360" fill="#ffffff" fill-opacity="0.7" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="4">FEARFUL</text>
+</svg>

@@ -1,0 +1,21 @@
+# 默认按文本处理并统一为 LF，避免 Windows/macOS 混合提交产生全文件 diff
+* text=auto eol=lf
+
+# Windows 批处理必须保留 CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制资源（避免换行转换与文本 diff）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.mp3 binary
+*.bin binary
+*.woff binary
+*.woff2 binary
+
+# 锁文件参与版本控制，但不计入语言统计
+package-lock.json -diff linguist-generated

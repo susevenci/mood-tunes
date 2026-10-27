@@ -1,0 +1,28 @@
+:root {
+  color-scheme: dark;
+  --bg: #070b14;
+  --bg-2: #0a1020;
+  --panel: rgba(17, 26, 46, 0.72);
+  --panel-solid: #111a2e;
+  --panel-2: rgba(25, 37, 64, 0.6);
+  --border: rgba(148, 176, 255, 0.14);
+  --border-strong: rgba(148, 176, 255, 0.28);
+  --text: #edf2ff;
+  --muted: #93a4c8;
+  --muted-2: #65779c;
+  --accent: #6ea8ff;
+  --accent-2: #b983ff;
+  --success: #2ed6b3;
+  --warning: #ffb23e;
+  --danger: #ff5a5f;
+  --emotion: #2ed6b3;
+  --emotion-soft: rgba(46, 214, 179, 0.16);
+  --emotion-a: #2ed6b3;
+  --emotion-b: #127a86;
+  --radius-lg: 22px;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+  --font: "Segoe UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  --mono: "Cascadia Code", "Consolas", "Courier New", monospace;
+}

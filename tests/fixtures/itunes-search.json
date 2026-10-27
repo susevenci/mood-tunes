@@ -1,0 +1,48 @@
+{
+  "resultCount": 4,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "trackId": 1001,
+      "trackName": "Happy Test Song",
+      "artistName": "Test Artist",
+      "collectionName": "Test Album",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/abc/100x100bb.jpg",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/test1.m4a",
+      "primaryGenreName": "Pop",
+      "trackViewUrl": "https://music.apple.com/cn/album/test/1001"
+    },
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "trackId": 1002,
+      "trackName": "Sad Test Song",
+      "artistName": "Another Artist",
+      "collectionName": "Another Album",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/def/60x60bb.jpg",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/test2.m4a",
+      "primaryGenreName": "Piano",
+      "collectionViewUrl": "https://music.apple.com/cn/album/another/1002"
+    },
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "trackId": 1003,
+      "trackName": "No Preview",
+      "artistName": "No Preview Artist",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/ghi/100x100bb.jpg",
+      "primaryGenreName": "Pop"
+    },
+    {
+      "wrapperType": "track",
+      "kind": "music-video",
+      "trackId": 1004,
+      "trackName": "A Music Video",
+      "artistName": "Video Artist",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/jkl/100x100bb.jpg",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/test4.m4a",
+      "primaryGenreName": "Pop"
+    }
+  ]
+}
